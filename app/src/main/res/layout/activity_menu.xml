@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout2"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_main"
+    android:screenOrientation="landscape"
+    android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+    <ImageButton
+        android:id="@+id/prevId2"
+        android:layout_width="90.0dip"
+        android:layout_height="90.0dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:scaleType="fitCenter"
+        android:src="@drawable/prev" />
+
+    <ImageButton
+        android:id="@+id/nextId2"
+        android:layout_width="90.0dip"
+        android:layout_height="90.0dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="15.0dip"
+        android:layout_marginBottom="10.0dip"
+        android:scaleType="fitCenter"
+        android:src="@drawable/next" />
+    <LinearLayout
+        android:id="@+id/linearMainLayoutId2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="4.0">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="2.0">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/bgg"
+                android:paddingTop="1.0dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="2.0">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/bgg"
+                android:paddingTop="1.0dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon4" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayoutId3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="2.0">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/bgg"
+                android:paddingTop="1.0dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="2.0">
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_weight="1.0"
+                android:background="@drawable/bgg"
+                android:paddingTop="1.0dip"
+                android:scaleType="fitXY"
+                android:src="@drawable/icon8" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
